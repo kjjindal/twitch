@@ -1,0 +1,96 @@
+.profile{
+    width:90%;
+    background-color:rgba(0, 0, 0, 0.9);
+    margin: 5px auto;
+    margin-top: -50px;
+    z-index:100;
+    
+}
+.profile__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.profile__topleft{
+    display: flex;
+align-items: center;
+}
+.profile__topleftlogo {
+    margin: 10px;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 999px;
+
+}
+
+.profile__topright{
+    display: flex;
+    align-items:center;
+
+
+}
+.profile__topright > .MuiSvgIcon-root{
+    /* color: lightgray; */
+    color: #a970ff;
+    margin-left:10px;
+    margin-right: 10px;
+
+}
+
+.profile__detail{
+    margin-left: 10px;
+    color: white;
+
+}
+.profile__detail>h2{
+    margin-bottom: 5px;
+    font-weight: 500;
+    
+
+}
+.profile__detail>p{
+    margin-bottom: 5px;
+
+}
+
+.profile__videos{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:14vh;
+
+    
+}
+
+.profile__bottom > h4 {
+
+    color: white;
+    margin:20px;
+    font-size: 20px;
+
+}
+
+.profile__menu{
+    display: flex;
+    
+
+}
+
+.profile__menu > h4{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: lightgray;
+    font-weight: 300;
+}
+
+
+.profile__menu > .menu__active {
+    border-bottom: 5px solid #a970ff;
+    padding-bottom: 10px;
+    color:#a970ff;
+
+}

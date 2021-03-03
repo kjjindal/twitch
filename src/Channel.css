@@ -1,0 +1,39 @@
+.channel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    height: 45px;
+    cursor: pointer;
+}
+.channel:hover{
+    /* background-color: rgba(232, 232, 232, 0.3); */
+    background-color: #25252c;
+}
+.channel:hover > .channel__details {
+    color: white;
+}
+.channel__details{
+    display: flex;
+    /* color: white; */
+}
+
+.channel__details > p{
+    display: flex;
+    flex-direction: column;
+    margin-left:7px;
+    color: lightgray;
+    font-weight: 200;
+}
+.channel__details > p >strong{
+    color: lightgray;
+    opacity: 0.8;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red !important;
+}
